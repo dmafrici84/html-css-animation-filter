@@ -1,6 +1,6 @@
 /* eserciozio 1 */
 
-.ex-1-square:hover {
+.ex-1-square {
   transition: background-color 3s;
 }
 
@@ -65,7 +65,7 @@
 }
 
 .ex-7-img:hover {
-  filter: grayscale(100%);
+  filter:  sepia(80%) grayscale(10%);
 }
 
 /* eserciozio 8 */
@@ -112,6 +112,7 @@
 
 @keyframes rotazione-1 {
 
+  0% {transform: rotate(0deg);}
   80% {transform: rotate(300deg);}
   100% {transform: rotate(0deg);}
 }
